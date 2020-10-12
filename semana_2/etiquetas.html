@@ -1,0 +1,222 @@
+<DOCTYPE html5>
+<html>
+        <head>
+            <title>Aplicacion 2</title>
+        </head>
+        <body>
+            <h1>Etiquetas &lt;insert&gt;,&lt;select&gt; y &lt;textarea&gt;<h1>
+            <table width="100%" border="1">
+                <tr>
+                    <td>Etiqueta</td>
+                    <td>Descripcion</td>
+                    <td>Ejemplo de etiqueta</td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="hidden"&gt;</td>
+                    <td>esta etiqueta sirve para ocultar algunos de los elementos que están por ser creados, que están siendo creados, pero que aún no se quiere mostrar al Publio o para ocultar algún elemento que ya no es relevante dentó de la página, se considera un elemento de tipo booleano.</td>
+                    <td><p>Nombre: <input type="hidden" name="_charset_"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="text"&gt;</td>
+                    <td>este comando se utiliza para una entrada de texto, que permite al usuario insertar o editar una línea de texto regular, regularmente se usa este tipo de entrada, para solicitar lo que son, nombres, apellidos, descripciones breves, números de teléfono entre otras cosas.</td>
+                    <td><p>Nombre: <input type="text" name="nombre"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="search"&gt;</td>
+                    <td>este comando e utiliza para buscar determinados, regularmente se estos tipos de inputs, están asosciados a cajas de texto, aunque algunas personas tienden a confundirlos con un text.</td>
+                    <td><p>Buscar: <input type="search" name="buscar"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="tel"&gt;</td>
+                    <td>representa un campo que está asociado para los números de teléfono, y solo es para poner datos o números de manera regular, principalmente se adaptó este tipo de etiqueta por la gran variedad de números que existen en el mundo. </td>
+                    <td><p>Telefono: <input type="tel" name="tel"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="url"&gt;</td>
+                    <td>se usa para rellenar, con alguna ruta del tipo url de manera absoluta.</td>
+                    <td><p>URL: <input type="url" name="url"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="email"&gt;</td>
+                    <td>representa campos para una o más direcciones de correo electrónico, aunque principalmente solo se asocia con una sola dirección web, a los usuarios es permitido llenar el campo en formato texto regular.</td>
+                    <td><p>Correo: <input type="email" name="email"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="password"&gt;</td>
+                    <td>representa un campo para las contraseñas, estos son similares a los campos de texto, solo con la diferencia que su valor se encuentra oculto y no permite a un usuario copiarlo actuando como una medida de seguridad.</td>
+                    <td><p>Contraseña: <input type="password" name="contraseña"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="date"&gt;</td>
+                    <td>se usa para insertar valores de fecha, una de las grandes ventajas de este tipo de comando es que por defult en navegador, convierte la fecha ingresada a un dato del tipo texto para ser registrado sin problemas. </td>
+                    <td><p>Fecha: <input type="date" name="fecha"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="month"&gt;</td>
+                    <td>es un campo que solo es usado para la entrada de meses, al igual que con el de tipo date, este campo se convierte por default en un campo tipo text, al momento de completar y enviar algún formulario. </td>
+                    <td><p>Mes: <input type="month" name="mes"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="week"&gt;</td>
+                    <td>es un campo que nos permite tener entradas para semas del año, algunas veces no se ocupa este tipo de input y es reemplazado por un dato de tipo cadena.</td>
+                    <td><p>semana: <input type="week" name="semana"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="time"&gt;</td>
+                    <td>es un campo que se usa para representar la entrada de horas, aunque es muy difícil que sea reemplazado por algún otro tipo de comando para el ingreso de horas, este tipo de etiqueta solo permite entradas de números en horas del 0 al 23 y para los minutos del 0 al 60.</td>
+                    <td><p>hora: <input type="time" name="hora"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="datatime-local"&gt;</td>
+                    <td>representa un campo para la fecha hora sin información de una zona horaria, es muy útil para la recolección de datos de un lugar en específico.</td>
+                    <td><p>Tiempo local: <input type="datatime-local" name="local"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="number"&gt;</td>
+                    <td>se usa para insertar datos de tipo numérico, los números negativos los representa con el guion -  y los números decimales con un carácter del tipo "." seguido de los demás dígitos del número. </td>
+                    <td><p>Numeros: <input type="number" name="numeros" min="1"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="range"&gt;</td>
+                    <td>se usa para insertar números dentro de algún rango, aunque no es importante seleccionar un valor exacto del rango algunas veces, muchos diseñadores los reemplazan por barras deslizadoras para poder seleccionar algún valor.</td>
+                    <td><p>Volumen: <input type="range" name="volumen"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="color"&gt;</td>
+                    <td>es simplemente un campo para la entrada de un color, cada color es dado por cogido hexadecimal, comenzando con un # antes de cada código.</td>
+                    <td><p>color: <input type="color" name="color"></p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="checkbox"&gt;</td>
+                    <td>se usa para representar dos campos para marcar o desmarcar, dos o más estados y es usado para la recolección de información que se usan para las preguntas de verdadero o falso, sexualidad, aceptar o rechazar entre muchos otros ejemplos.</td>
+                    <td><p>checkbox: <input type="checkbox" name="caja" value="Perro">Perros</p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="radio"&gt;</td>
+                    <td>es algo parecido al checkbox, ya que sirve para opciones, aunque tu todos comparten un mismo valor de atributo, y juega un papel fundamental para las opciones.</td>
+                    <td><p>radio: <input type="radio" name="caja" value="Masculino">Masculino</p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="file"&gt;</td>
+                    <td>es para agregar archivos del computador, para ser subidos al servidor web, además de que cuenta con un atributo que se llama accept que se usa para encontrar los archivos que se buscan subir. </td>
+                    <td><p>Archivo:<input type="file" name="archivosubido"></p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="submit"&gt;</td>
+                    <td>se representa a través de un botón, que envía los datos a un formulario correspondiente.</td>
+                    <td><p><input type="submit" name="Enviar"></p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="image"&gt;</td>
+                    <td>representa un botón, pero a diferencia con los botones convencionales estos tipos de botones tienen una imagen, además de que cuando se le da clic a un botón de este tipo se hacen registro de los pixeles donde se le dé un clic.</td>
+                    <td><p><input type="image" name="imagen" src="C:\/Users/Usuario/Pictures"></p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="reset"&gt;</td>
+                    <td>como su nombre lo dice este formulario es para borrar los datos y regresar todos los campos del formulario a la forma original.</td>
+                    <td><p> <input type="reset" value="Restaurar"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="button"&gt;</td>
+                    <td>se utiliza para crear datos, sin una acción definida asociado automáticamente, debes de darle una acción para que funcione, de lo contrario al presionarlo no ocurrirá nada. </td>
+                    <td><p> <input type="button" value="Yo no hago nada"> </p></td>
+                </tr>
+                <tr>
+                    <td>&lt;input type="reset"&gt;</td>
+                    <td>como su nombre lo dice este formulario es para borrar los datos y regresar todos los campos del formulario a la forma original.</td>
+                    <td><p> <input type="reset" value="Restaurar"> </p></td>
+                </tr>
+                    <!--etiquetas select-->
+                <tr>
+                    <td>&lt;select autofocus&gt;</td>
+                    <td>da un tipo de formulario de control que tiene un tipo de enfoque a la entrada en cuanto se carga la página, una de las características de este tipo de etiqueta es que al ser de tipo booleano y solo permite una etiqueta por cada documento.</td>
+                    <td><select name="duracion" autofocus> <option>1 año</option> <option>2 años</option> <option>4 años</option> </select></td>
+                </tr>
+                <tr>
+                    <td>&lt;select disabe&gt;</td>
+                    <td>se usa para indicar que alguna parte de una lista o algún atributo que se use para tomar valor se encuentra deshabilitado.</td>
+                    <td><select name="mascotafavorita" disabled> <option>Perro</option> <option>Gato</option>
+                    <option>Conejo</option> </select></td>
+                </tr>
+                <tr>
+                    <td>&lt;select form&gt;</td>
+                    <td>se usa para situar elementos de forma descendente o ascendente en cualquier parte de un formulario</td>
+                    <td><select name="comorecibirlo" form="formulario1"> <option>Descargar ahora</option>   <option>Envíenmelo</option> <option>Esperar</option> </select></td>
+                </tr>
+                <tr>
+                    <td>&lt;select multiple&gt;</td>
+                    <td>se usa para que un usario pueda seleccionar varios tipos de datos de una lista, si es que estas están especificadas, de lo contrario si no están especificadas solo se pueden seleccionar una vez.</td>
+                    <td><select name="mascotasfavoritas[]" multiple> <option>Perro</option> <option>Gato</option>
+                    <option>Conejo</option> </select></td>
+                </tr>
+                <tr>
+                    <td>&lt;select name&gt;</td>
+                    <td>se usa para darle un nombre a algún elemento de control.</td>
+                    <td><select name="autoparahoy"> <option>Mercedes-Benz SLR McLaren</option> <option>Lamborghini Egoista</option> <option>Lamborghini Aventador</option> </select></td>
+                </tr>
+                <tr>
+                    <td>&lt;select requiered&gt;</td>
+                    <td>indica si alguna opción de selección esta desmarcada o si es necesaria para llenar algún formulario</td>
+                    <td><select name="actividadestanoche" required> <option value="">Elige una opción</option>
+                        <option>Películas</option> <option>Fiesta</option> <option>Mirar las estrellas</option></select> </td>
+                </tr>
+                <tr>
+                    <td>&lt;select size&gt;</td>
+                    <td>se usa para representar una lista o un scroll como muchos lo conocen, para ser usado como número de líneas, que el control mostrara de una forma simultánea</td>
+                    <td><select name="calidad" size="2"><option>peliculas</option><option>fiesta</option></select></td>
+                </tr>
+                <!--etiqueta textarea-->
+                <tr>
+                    <td>&lt;textarea rows&gt;</td>
+                    <td>sirve para insertar texto dentro de un espacio, si nuestro texto es amplio, nos dará una barra deslizadora para poder ver todo el texto de arriba a hacia abajo.</td>
+                    <td>Agradecimientos: <textarea name="thanks" cols="30" rows="6"></textarea> <input type="submit" value="Submit"></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea required&gt;</td>
+                    <td>sirve para indicar si para pedirle al usuario que llene un espacio en blanco.</td>
+                    <td>Deja tu opinión: <textarea name="opinion" required></textarea> <input type="submit" value="Enviar"></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea readonly&gt;</td>
+                    <td>sirve para indicar si para pedirle al usuario que llene un espacio en blanco.</td>
+                    <td><textarea name="archivo" readonly>wait=24 login=db autostart=yes </textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea placeholder&gt;</td>
+                    <td>se usa principalmente para que el usuario pueda poner algún tipo de descripción o de opinión de una forma corta, algo que caracteriza a este tipo de etiqueta es que se le pude definir un atributo como ejemplo al usuario.</td>
+                    <td> <textarea name="resultados" placeholder="Escribe aquí los resultados de tu estudio..."></textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea name&gt;</td>
+                    <td>para nombrar algún controlador de, que son enviados cuando se termina un formulario, este permite que exista un nombre-valor dentro del formulario, que permitirá procesar de una manera procesar la información de algún formulario</td>
+                    <td><textarea name="resena"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea minlength&gt;</td>
+                    <td>para indicar el número mínimo de caracteres que puede tener una cadena.</td>
+                    <td><textarea name="analisis" maxlength="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea maxlength&gt;</td>
+                    <td>se utiliza para indicar el número máximo de caracteres que puede tener una cadena. </td>
+                    <td><textarea name="analisis" maxlength="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea autofocus&gt;</td>
+                    <td>se utiliza para especificar que el área de texto debe enfocarse automáticamente cuando se carga la página.</td>
+                    <td>¿Qué estás pensando?:<textarea name="pensamientos" disabled></textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea dirname&gt;</td>
+                    <td>se creó y se utiliza con el fin de transmitir la direccionalidad del texto ingresado, además de que permite a los autores manipular correctamente los valores y/o texto enviados con cualquier direccionalidad de texto</td>
+                    <td>Contribuye: <textarea name="idea" dirname="idea-dir"></textarea></td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea cols&gt;</td>
+                    <td>se con el fin de dar una anchura visible del control de texto, en caracteres de anchura media.</td>
+                    <td>Agradecimientos:<textarea name="agradecimientos" cols="30" rows="6"></textarea></td>
+                </tr>
+            </table>
+        </body>
+    </html>
+</DOCTYPE>
