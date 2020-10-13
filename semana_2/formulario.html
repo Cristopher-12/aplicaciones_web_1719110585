@@ -2,13 +2,15 @@
     <html>
         <head><title>Formulario</title></head>
         <body>
+            
             <p>Nombre(s): <input type="text" name="nombre"></p>
             <p>Apellido paterno: <input type="text" name="apellido_p"></p>
             <p>Apellido materno: <input type="text" name="apellido_m"></p>
             <p>Fecha de Nacimiento: <input type=date name="fecha"></p>
             <p>Edad: <input type="number" name="edad" min="1"> </p>
             <p>Sexo: <input type="radio" name="sexo" value="masculino">Masculino <input type="radio" name="sexo" value="femenino"> Femenino</p>
-            <p>Estado<select name="estado autofocus"> <option>-Selecione una entidad-</option>
+            
+            <p>Estado <select name="estado autofocus"> <option>-Selecione una entidad-</option>
                 <option>Aguascalientes</option>
                 <option>Baja California</option>
                 <option>Baja California Sur</option>
@@ -16,7 +18,7 @@
                 <option>Chiapas</option>
                 <option>Chihuahua</option>
                 <option>Ciudad de México</option>
-                <option>Coahuila de Zaragoza</option>
+                <option>Coahuila</option>
                 <option>Colima</option>
                 <option>Durango</option>
                 <option>Guanajuato</option>
@@ -24,7 +26,7 @@
                 <option>Hidalgo</option>
                 <option>Jalisco</option>
                 <option>México</option>
-                <option>Michoacán de Ocampo</option>
+                <option>Michoacán</option>
                 <option>Morelos</option>
                 <option>Nayarit</option>
                 <option>Nuevo León</option>
@@ -38,11 +40,15 @@
                 <option>Tabasco</option>
                 <option>Tamaulipas</option>
                 <option>Tlaxcala</option>
-                <option>Veracruz de Ignacio de la Llave</option>
+                <option>Veracruz</option>
                 <option>Yucatan</option>
                 <option>Zacatecas</option> </select></p>
-            <p>Domicilio</p>
-            <p>Calle:<input type="text" name=calle> Lote:<input type="text" name="lote"> Colonia:<input type="tex" name="Colonia"> Codigo Postal: <input type="text" name="cp"></p>
+            
+            <p>Dirección</p>
+            <p>Calle:<input type="text" name=calle> 
+            Colonia:<input type="tex" name="Colonia"> 
+            Codigo Postal: <input type="text" name="cp"></p>
+            
             <p>Estado civil: <input type="radio" name="Soltero" value="Soltero">Soltero <input type="radio" name="comprometido" value="comprometico">Comprometido <input type="radio" name="Casado" value="casado"> Casado</p>
             <input type="button" name="Enviar" value="Enviar Datos">
         </body>
